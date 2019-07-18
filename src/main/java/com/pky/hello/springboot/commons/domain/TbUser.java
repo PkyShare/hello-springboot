@@ -2,15 +2,15 @@ package com.pky.hello.springboot.commons.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.pky.hello.springboot.commons.dto.AbstractBaseDomain;
 
-import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Table(name = "myshop.tb_user")
 @JsonInclude(JsonInclude.Include.NON_NULL) // 不传递空值
-public class TbUser implements Serializable {
+public class TbUser extends AbstractBaseDomain {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

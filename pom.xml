@@ -56,6 +56,13 @@
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>${spring-boot-tk-mybatis.version}</version>
         </dependency>
+
+        <!-- 分页 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>${spring-boot-pagehelper.version}</version>
+        </dependency>
         <!--Springboot End-->
 
         <!-- Thymeleaf Begin -->
@@ -91,6 +98,15 @@
         <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- 链式编程 -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>guava</artifactId>
         </dependency>
         <!--Commons End-->
 

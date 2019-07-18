@@ -30,9 +30,7 @@ spring:
     servlet:
       content-type: text/html
 logging:
-  # 文件名
-  file: hello-springboot.log
   # 日志级别
   level:
     com:
-      pky: ERROR
+      pky: DEBUG
