@@ -29,7 +29,7 @@
         <!-- Commons Settings -->
         <mysql.version>5.1.35</mysql.version>
         <jackson.version>2.9.7</jackson.version>
-        <fastjson.version>1.2.28</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
     <dependencies>
